@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comics</title>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-    @Vite('resources/js/app.js')
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    @vite('resources/js/app.js')
 
 </head>
-<body>
-    
-    <h1 class="text-center">Hello world</h1>
 
+<body>
+
+    <h1>
+        Hello World
+    </h1>
 </body>
+
 </html>
